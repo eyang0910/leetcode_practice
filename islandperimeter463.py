@@ -29,6 +29,10 @@ def islandPerimeter(grid):
                         m += 1
     return m
 islandPerimeter([[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]])
+# def islandPerimeter(self, grid):
+#     return sum(sum(map(operator.ne, [0] + row, row + [0]))
+#                for row in grid + map(list, zip(*grid)))
+
 
 # class Solution(object):
 #     def islandPerimeter(self, grid):
